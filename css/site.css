@@ -1,0 +1,11 @@
+#order{display:none}
+#video{display:block;width:100%;height:100%;object-fit:contain}
+#container_video{background:#000}
+#play{cursor:pointer}
+#order input[type=hidden]{display:none}
+#order .product-card__image{height:auto;object-fit:contain}
+.player__controls #progress-bar{height:100%;background:var(--color-accent);width:0%}
+html{scroll-behavior:smooth}
+.phone-input-wrapper{max-width:100%}
+.lead-form__input{min-width:0;box-sizing:border-box}
+@media(max-width:600px){.hero__title{overflow-wrap:anywhere}}
